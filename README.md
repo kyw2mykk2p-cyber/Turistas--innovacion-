@@ -1,2 +1,4 @@
 # Turistas--innovacion-
-Es un sistema de Registro de Turistas que permite registrar el nombre de un titular y la cantidad de acompañantes que lo acompañan. El sistema tiene como objetivo controlar la cantidad de personas registradas y verificar que no se supere la capacidad máxima establecida de 100 personas.
+Este proyecto consiste en desarrollar una aplicación web para realizar el registro de turistas y controlar la capacidad disponible. El sistema permite ingresar el nombre del titular y el número de acompañantes que lo acompañan.
+
+La aplicación cuenta con una capacidad máxima de 100 personas. Cada vez que se realiza un registro, el sistema suma al titular y a sus acompañantes para determinar el total de espacios ocupados.
