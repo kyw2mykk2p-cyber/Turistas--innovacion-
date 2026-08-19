@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Turistas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Registro de Turistas</h1>
+
+        <form id="formulario">
+            <label for="nombre">Nombre del titular:</label>
+            <input type="text" id="nombre" placeholder="Ingrese el nombre" required>
+
+            <label for="acompanantes">Número de acompañantes:</label>
+            <input type="number" id="acompanantes" min="0" placeholder="Ingrese cantidad" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
